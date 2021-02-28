@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+:root {
+    --white: #F8F7F9;
+    --cadet: #2B2D42;
+}
+
+/* Universal Selectors */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif; 
+    background: var(--white);
+    color: var(--cadet);
+}
+
+h1 {
+    font-size: 2rem;
+    color: var(--white);
+}
+
+p {
+    color: var(--white);
+    font-size: .8rem;
+}
+
+span {
+    font-weight: 700;
+}
+
+button {
+    border: 0;
+    outline: 0;
+    background: 0;
+}
+
+
+/* Counter */
+
+.counter .container {
+    min-height: 100vh;
+}
+
+.profile-container {
+    background: var(--cadet);
+    border-radius: 2rem;
+    width: 40%;
+    min-width: 300px;
+    padding: 2rem;
+}
+
+.profile-container.flex {
+    align-items: flex-start;
+}
+
+.profile-container * {
+    margin: .3rem 0;
+}
+
+.btn-container {
+    margin-top: 2rem;
+}
+
+/* Utilities */
+
+.container {
+    max-width: 100%;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btn {
+    border: 2px solid var(--cadet);
+    border-radius: 2rem;
+    padding: .7rem 1.4rem;
+    margin: 0 1rem;
+    cursor: pointer;
+    transition: all .1s ease-in;
+}
+
+.btn:hover {
+    transform: translate(1px, 1px);
+    background: var(--cadet);
+    color: var(--white);
+}
