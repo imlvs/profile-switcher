@@ -27,6 +27,13 @@ const people = [
         languages: 'HTML, CSS, JS, Figma',
         company: 'Kebab Shop',
     },
+    {
+        id: 5,
+        name: 'Zelimkhan Malsagov',
+        position: 'Full-Stack Developer',
+        languages: 'everything',
+        company: 'every company',
+    },
 ]
 
 const name = document.getElementById('profile-name');
